@@ -3,9 +3,9 @@ const app = express();
 app.use(express.json());
 const path = require('path')
 const prompt = require('prompt-sync')()
-const verif = require('./cliente/login/login')
+/* const verif = require('./cliente/login/login')
 
-verif.login().valueOf
+verif.login().valueOf */
 
 const x = parseInt(prompt('valor: '))
 
